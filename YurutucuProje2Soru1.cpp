@@ -1,10 +1,4 @@
-// Yaðýzcem CENGÝZ
-// 170757058
-// Bilgisayar Mühendisliði
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarýyýl)
-// Proje2
-// Dr. Öðr. Üyesi Gülþah TÜMÜKLÜ ÖZYER
+// YaÄŸÄ±zcem CENGÄ°Z
 
 
 #include "Polinom.h"
@@ -21,7 +15,7 @@ int main()
     
     int a, b, c, d , katsayi;
 
-	//A , B , C degiskenlerimizi buradan alýp , KatsayilaraDegerAta fonksyionuna yolluyoruz.
+	//A , B , C degiskenlerimizi buradan alÄ±p , KatsayilaraDegerAta fonksyionuna yolluyoruz.
     cout << "x kare degiskeninin degeri olarak bir katsayi giriniz: ";
     cin >> a;
     cout << "x degiskeninin degeri olarak bir katsayi giriniz: ";
@@ -40,7 +34,7 @@ int main()
 
     cout << endl;
    
-   	system("pause");    //exe uzantýlý dosyayý açtýðýmýzda , programýn direkt kapanmamasý için gereken fonksiyon.
+   	system("pause");    //exe uzantÄ±lÄ± dosyayÄ± aÃ§tÄ±ÄŸÄ±mÄ±zda , programÄ±n direkt kapanmamasÄ± iÃ§in gereken fonksiyon.
    	
     return 0;
 }
