@@ -1,16 +1,10 @@
-// Yağızcem CENGİZ
-// 170757058
-// Bilgisayar Mühendisliği
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarıyıl)
-// Proje2
-// Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER
+// YaÄŸÄ±zcem CENGÄ°Z
 
 #include <iostream>
 #include <cmath>
 using namespace std;
 
-// İstenilen class ve özelliklerini burada yazıyoruz.
+// Ä°stenilen class ve Ã¶zelliklerini burada yazÄ±yoruz.
 
 class Polinom
 {
@@ -19,7 +13,7 @@ class Polinom
 		int DegerHesapla(int);
 		void KokleriHesapla();
 	private:
-		int a, b, c, d, x;     //private değişkenlerimizi burada tanımlıyoruz. Kökler her zaman tam sayı çıkamayacağından float olarak tanımlıyoruz.
+		int a, b, c, d, x;     //private deÄŸiÅŸkenlerimizi burada tanÄ±mlÄ±yoruz. KÃ¶kler her zaman tam sayÄ± Ã§Ä±kamayacaÄŸÄ±ndan float olarak tanÄ±mlÄ±yoruz.
 		float x1, x2;		
 };
 
