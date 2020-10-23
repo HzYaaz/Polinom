@@ -1,11 +1,4 @@
-// Yağızcem CENGİZ
-// 170757058
-// Bilgisayar Mühendisliği
-// Nesneye Yönelik Programlama BIM - 104
-// II. Dönem (2. yarıyıl)
-// Proje2
-// Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER
-
+// YaÄŸÄ±zcem CENGÄ°Z
 
 #include "Polinom.h"
 #include <iostream>
@@ -13,7 +6,7 @@
 using namespace std;
 
 
-// Main.cpp de tanımladığımız değişkenleri güncellemek için bu fonksiyondaki veri tiplerine atıyoruz.
+// Main.cpp de tanÄ±mladÄ±ÄŸÄ±mÄ±z deÄŸiÅŸkenleri gÃ¼ncellemek iÃ§in bu fonksiyondaki veri tiplerine atÄ±yoruz.
 void Polinom::KatsayilaraDegerAta(int a1, int b1, int c1) 
 {
 	a = a1;
@@ -34,7 +27,7 @@ int Polinom::DegerHesapla(int katsayi)
 //---------------------------------------------------------------------------------------
 
 
-// En başta Deltayı bulmak için gereken formülümüzü yazdırıyoruz. Daha sonra if , else if , else yapısıyla köklerimizi bulup yazdırıyoruz.
+// En baÅŸta DeltayÄ± bulmak iÃ§in gereken formÃ¼lÃ¼mÃ¼zÃ¼ yazdÄ±rÄ±yoruz. Daha sonra if , else if , else yapÄ±sÄ±yla kÃ¶klerimizi bulup yazdÄ±rÄ±yoruz.
 void Polinom::KokleriHesapla()
 {
 	d = b * b;
